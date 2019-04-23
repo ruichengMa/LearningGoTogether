@@ -7,6 +7,28 @@
         chan     slse       goto      package       switch 
         cons     fallthough if        range         type
         continue for        import    return        var
+        
+        注释:
+        引导程序整体结构的8个关键字
+            package //定义包名的关键字
+            import  //导入包名的关键字
+            const   //常量声明的关键字
+            var     //变量声明关键字
+            func    //函数定义关键字
+            defer   //延迟执行关键字
+            go      //并发语法糖关键字
+            return  //函数返回关键字
+        声明复合数据结构的4个关键字
+            struct  //定义结构类型关键字
+            interface //定义接口类型关键字
+            map       //声明或创建map关键字
+            chan      //声明或创建通道类型关键字
+        控制程序结构的13个关键字
+            if else  //if else语句关键字
+            for range break continue //for循环使用的关键字
+            switch select type case default fallthough //switch 和select语句使用的关键字
+            goto        //goto跳转语句关键字
+            
 ##### 1.3 预声明常量、类型和函数
         常量: true false iota   nil
         类型: int  int8  int16  int32   int64 

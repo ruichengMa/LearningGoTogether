@@ -1,7 +1,9 @@
 介绍
 万物皆文件
 
-[link](www.baidu.com){:target="_blank"}
+[link](3.1-复制文件.md){:target="_blank"}
+[Link](http://www.baidu.com "title" target="_blank")
+
 
 基本操作
 创建空文件
